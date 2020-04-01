@@ -96,7 +96,6 @@ header nav ul li a:hover {
     color: #333333;
 }
 
-/* Section why-mmi */
 section#why-dut {
     background: #333333;
 }
@@ -105,12 +104,19 @@ section#why-mmi {
     background: #009dd8;
 }
 
-/* Section why-troyes */
 section#why-troyes {
     background: #c0392b;
 }
 
-/* Media queries */
+section#logo-psd {
+    color: #333333;
+}
+
+section#logo-psd h2 {
+    margin-bottom: 0;
+}
+
+/* Media queries responsive */
 
 @media screen and (max-width: 960px) {
     section {
