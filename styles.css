@@ -1,0 +1,150 @@
+/* Reset CSS */
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', Verdana, Tahoma, sans-serif;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 128px;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #c0392b;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 16px 0;
+    text-align: left;
+}
+
+span.bold-italic-underline {
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background: #333;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+header img#logo {
+    height: 80px;
+    padding-left: 32px;
+}
+
+/* Navigation */
+header nav {
+    position: relative;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    /* padding: 16px; */
+}
+
+header nav ul li:hover {
+    background: #FFFFFF;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #333333;
+}
+
+section#why-dut {
+    background: #333333;
+}
+
+section#why-mmi {
+    background: #009dd8;
+}
+
+section#why-troyes {
+    background: #c0392b;
+}
+
+section#logo-psd {
+    color: #333333;
+}
+
+section#logo-psd h2 {
+    margin-bottom: 0;
+}
+
+/* Media queries responsive */
+
+@media screen and (max-width: 960px) {
+    section {
+        padding: 64px;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        padding: 32px 0 0 0;
+    }
+
+    header nav {
+        width: 100%;
+        padding: 32px 0;
+    }
+
+    header nav ul {
+        background: #FFFFFF;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul li {
+        border-bottom: 1px solid #333333;
+    }
+
+    header nav ul li a {
+        color: #333333;
+    }
+}
